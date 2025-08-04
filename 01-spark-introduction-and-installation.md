@@ -99,6 +99,27 @@ source ~/.bashrc
 # download spark
 
 wget https://www.apache.org/dyn/closer.lua/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3.tgz
+
+
+# tar command
+tar xvf spark-4.0.0-bin-hadoop3.tgz
+
+# change path
+sudo mv spark-4.0.0-bin-hadoop3.tgz /opt/spark
+
+# verify installation
+/opt/spark/bin/spark-shell --version
+
+# set environmental variables
+
+echo "export SPARK_HOME=/opt/spark" >> ~/.bashrc
+echo "export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin" >> ~/.bashrc
+echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.bashrc
+
+# apply changes
+
+source ~/.bashrc
+
 ```
 
 [spark on ubuntu](https://phoenixnap.com/kb/install-spark-on-ubuntu)
