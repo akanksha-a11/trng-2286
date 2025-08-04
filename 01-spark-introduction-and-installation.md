@@ -105,7 +105,7 @@ wget https://dlcdn.apache.org/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3.tgz
 tar xvf spark-4.0.0-bin-hadoop3.tgz
 
 # change path
-sudo mv spark-4.0.0-bin-hadoop3.tgz /opt/spark
+sudo mv spark-4.0.0-bin-hadoop3 /opt/spark
 
 # verify installation
 /opt/spark/bin/spark-shell --version
