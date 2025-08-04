@@ -83,7 +83,7 @@ java -version
 # get java path
 readlink -f $(which java)
 
-/usr/lib/jvm/java-17-openjdk-amd64/bin/java
+/usr/lib/jvm/java-17-openjdk-amd64
 
 # add java path
 
