@@ -83,6 +83,8 @@ java -version
 # get java path
 readlink -f $(which java)
 
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java
+
 # add java path
 
 echo 'export JAVA_HOME=/path/to/java' >> ~/.bashrc
@@ -91,6 +93,12 @@ echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
 # apply changes
 source ~/.bashrc
 
+```
+
+```sh
+# download spark
+
+https://www.apache.org/dyn/closer.lua/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3.tgz
 ```
 
 [spark on ubuntu](https://phoenixnap.com/kb/install-spark-on-ubuntu)
