@@ -98,7 +98,7 @@ source ~/.bashrc
 ```sh
 # download spark
 
-wget https://www.apache.org/dyn/closer.lua/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3.tgz
+wget https://dlcdn.apache.org/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3.tgz
 
 
 # tar command
