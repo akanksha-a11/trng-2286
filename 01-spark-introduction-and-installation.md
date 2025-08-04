@@ -73,28 +73,6 @@ sudo apt-get update && sudo apt-get install -y python3 python3-pip
 #### Java Installation and path setup
 
 ```sh
-# install java 11
-sdk install java 17.0.9-tem
-
-# verify installation
-java -version
-
-# get java path
-readlink -f $(which java)
-
-# add java path
-
-echo 'export JAVA_HOME=/path/to/java' >> ~/.bashrc
-echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
-
-# apply changes
-source ~/.bashrc
-
-```
-
-#### Java Installation and path setup
-
-```sh
 # install java 17
 sudo apt update
 sudo apt install openjdk-17-jdk -y
