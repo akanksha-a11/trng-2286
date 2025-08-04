@@ -122,6 +122,12 @@ source ~/.bashrc
 
 ```
 
+```sh
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+export PYSPARK_PYTHON=/usr/bin/python3
+```
+
 [spark on ubuntu](https://phoenixnap.com/kb/install-spark-on-ubuntu)
 
 [apache spark download](https://spark.apache.org/downloads.html)
