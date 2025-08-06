@@ -1,0 +1,47 @@
+[
+  {
+    "user_id": "u1",
+    "name": "Alice",
+    "activities": [
+      {
+        "date": "2025-08-01",
+        "pages": [
+          "home",
+          "profile",
+          "settings"
+        ],
+        "metrics": {
+          "clicks": 5,
+          "time_spent": 120
+        }
+      },
+      {
+        "date": "2025-08-02",
+        "pages": [
+          "home",
+          "products"
+        ],
+        "metrics": {
+          "clicks": 3,
+          "time_spent": 60
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "u2",
+    "name": "Bob",
+    "activities": [
+      {
+        "date": "2025-08-01",
+        "pages": [
+          "home"
+        ],
+        "metrics": {
+          "clicks": 2,
+          "time_spent": 30
+        }
+      }
+    ]
+  }
+]
