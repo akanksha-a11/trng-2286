@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+spark-streaming-kinesis-asl_2.13-4.0.0.jar
+spark-streaming-sql-kinesis-connector_*
